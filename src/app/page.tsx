@@ -7,6 +7,7 @@ import { FourItemsBentoGridOne } from "@/components/BentoGrid/FourItemsBentoGrid
 import { FourItemsBentoGridThree } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridThree";
 import { FourItemsBentoGridTwo } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridTwo";
 import { SevenItemsBentoGridOne } from "@/components/BentoGrid/SevenItemsBentoGrid/SevenItemsBentoGridOne";
+import { SixItemsBentoGridThree } from "@/components/BentoGrid/SixItemsBentoGrid/SixItemsBentoGridThree";
 import { SixItemsBentoGridOne } from "@/components/BentoGrid/SixItemsBentoGrid/SixItmesBentoGridOne";
 import { SixItemsBentoGridTwo } from "@/components/BentoGrid/SixItemsBentoGrid/SixItmesBentoGridTwo";
 import { TenItemsBentoGridOne } from "@/components/BentoGrid/TenItemsBentoGrid/TenItemsBentoGridOne";
@@ -45,6 +46,8 @@ export default function Home() {
         <SixItemsBentoGridOne />
         <hr className="my-8" />
         <SixItemsBentoGridTwo />
+        <hr className="my-8" />
+        <SixItemsBentoGridThree />
         <hr className="my-8" />
         {/* seven items bento grid */}
         <SevenItemsBentoGridOne />
