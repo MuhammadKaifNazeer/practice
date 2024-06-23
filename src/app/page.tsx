@@ -19,12 +19,14 @@
 // import { CodeBlockOne } from "@/components/CodeBlocks/CodeBlockOne";
 // import Image from "next/image";
 
-import MoonBeam from "@/components/MoonBeam/MoonBeam";
+import Aceternity from "@/components/Aceternity/Aceternity";
+// import MoonBeam from "@/components/MoonBeam/MoonBeam";
 
 export default function Home() {
   return (
     <>
-      <MoonBeam />
+      <Aceternity />
+      {/* <MoonBeam /> */}
       {/* <CodeBlockOne /> */}
       {/* <div className="py-8 px-4 sm:px-8 lg:px-12"> */}
       {/* Three Items Bento Grid */}
