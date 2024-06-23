@@ -1,27 +1,30 @@
-import { BentoGridOne } from "@/components/BentoGrid/BentoGridOne/BentoGridOne";
-import { BentoGridTwo } from "@/components/BentoGrid/BentoGridTwo/BentoGridTwo";
-import { EightItemsBentoGridOne } from "@/components/BentoGrid/EightItemsBentoGrid/EightItemsBentoGridOne";
-import { FiveItemsBentoGridOne } from "@/components/BentoGrid/FiveItemsBentoGrid/FiveItemsBentoGridOne";
-import { FiveItemsBentoGridTwo } from "@/components/BentoGrid/FiveItemsBentoGrid/FiveItemsBentoGridTwo";
-import { FourItemsBentoGridOne } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridOne";
-import { FourItemsBentoGridThree } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridThree";
-import { FourItemsBentoGridTwo } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridTwo";
-import { NineItemsBentoGridOne } from "@/components/BentoGrid/NineItemsBentoGrid/NineItemsBentoGridOne";
-import { SevenItemsBentoGridOne } from "@/components/BentoGrid/SevenItemsBentoGrid/SevenItemsBentoGridOne";
-import { SixItemsBentoGridThree } from "@/components/BentoGrid/SixItemsBentoGrid/SixItemsBentoGridThree";
-import { SixItemsBentoGridOne } from "@/components/BentoGrid/SixItemsBentoGrid/SixItmesBentoGridOne";
-import { SixItemsBentoGridTwo } from "@/components/BentoGrid/SixItemsBentoGrid/SixItmesBentoGridTwo";
-import { TenItemsBentoGridOne } from "@/components/BentoGrid/TenItemsBentoGrid/TenItemsBentoGridOne";
-import { ThreeItemBentoGridFour } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridFour";
-import { ThreeItemBentoGridOne } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridOne";
-import { ThreeItemBentoGridThree } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridThree";
-import { ThreeItemBentoGridTwo } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridTwo";
-import { CodeBlockOne } from "@/components/GeistCodeBlock/CodeBlockOne";
-import Image from "next/image";
+// import { BentoGridOne } from "@/components/BentoGrid/BentoGridOne/BentoGridOne";
+// import { BentoGridTwo } from "@/components/BentoGrid/BentoGridTwo/BentoGridTwo";
+// import { EightItemsBentoGridOne } from "@/components/BentoGrid/EightItemsBentoGrid/EightItemsBentoGridOne";
+// import { FiveItemsBentoGridOne } from "@/components/BentoGrid/FiveItemsBentoGrid/FiveItemsBentoGridOne";
+// import { FiveItemsBentoGridTwo } from "@/components/BentoGrid/FiveItemsBentoGrid/FiveItemsBentoGridTwo";
+// import { FourItemsBentoGridOne } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridOne";
+// import { FourItemsBentoGridThree } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridThree";
+// import { FourItemsBentoGridTwo } from "@/components/BentoGrid/FourItemsBentoGrid/FourItemsBentoGridTwo";
+// import { NineItemsBentoGridOne } from "@/components/BentoGrid/NineItemsBentoGrid/NineItemsBentoGridOne";
+// import { SevenItemsBentoGridOne } from "@/components/BentoGrid/SevenItemsBentoGrid/SevenItemsBentoGridOne";
+// import { SixItemsBentoGridThree } from "@/components/BentoGrid/SixItemsBentoGrid/SixItemsBentoGridThree";
+// import { SixItemsBentoGridOne } from "@/components/BentoGrid/SixItemsBentoGrid/SixItmesBentoGridOne";
+// import { SixItemsBentoGridTwo } from "@/components/BentoGrid/SixItemsBentoGrid/SixItmesBentoGridTwo";
+// import { TenItemsBentoGridOne } from "@/components/BentoGrid/TenItemsBentoGrid/TenItemsBentoGridOne";
+// import { ThreeItemBentoGridFour } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridFour";
+// import { ThreeItemBentoGridOne } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridOne";
+// import { ThreeItemBentoGridThree } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridThree";
+// import { ThreeItemBentoGridTwo } from "@/components/BentoGrid/ThreeItemBentoGrid/ThreeItemBentoGridTwo";
+// import { CodeBlockOne } from "@/components/CodeBlocks/CodeBlockOne";
+// import Image from "next/image";
+
+import MoonBeam from "@/components/MoonBeam/MoonBeam";
 
 export default function Home() {
   return (
     <>
+      <MoonBeam />
       {/* <CodeBlockOne /> */}
       {/* <div className="py-8 px-4 sm:px-8 lg:px-12"> */}
       {/* Three Items Bento Grid */}
