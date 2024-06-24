@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Hero from "./Hero/Hero";
+import ShowcaseSection from "./ShowcaseSection/ShowcaseSection";
 
 const Aceternity = () => {
   return (
@@ -68,6 +69,7 @@ const Aceternity = () => {
         </div>
         <Navbar />
         <Hero />
+        <ShowcaseSection />
       </main>
     </>
   );
