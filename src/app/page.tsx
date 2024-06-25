@@ -19,13 +19,16 @@
 // import { CodeBlockOne } from "@/components/CodeBlocks/CodeBlockOne";
 // import Image from "next/image";
 
-import Aceternity from "@/components/Aceternity/Aceternity";
+import Rogue from "@/components/Rogue/Rogue";
+
+// import Aceternity from "@/components/Aceternity/Aceternity";
 // import MoonBeam from "@/components/MoonBeam/MoonBeam";
 
 export default function Home() {
   return (
     <>
-      <Aceternity />
+      <Rogue />
+      {/* <Aceternity /> */}
       {/* <MoonBeam /> */}
       {/* <CodeBlockOne /> */}
       {/* <div className="py-8 px-4 sm:px-8 lg:px-12"> */}
