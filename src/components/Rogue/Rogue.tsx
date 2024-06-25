@@ -3,6 +3,7 @@ import Navbar from "./Navbar/Navbar";
 import Hero from "./Hero/Hero";
 import Testimonial from "./Testimonials/Testimonials";
 import CTA from "./CTA/CTA";
+import FAQs from "./FAQs/FAQs";
 
 const Rogue = () => {
   return (
@@ -12,6 +13,7 @@ const Rogue = () => {
         <div className="relative overflow-hidden">
           <Hero />
           <Testimonial />
+          <FAQs />
           <CTA />
 
           <div className="h-screen w-screen bg-white"></div>
