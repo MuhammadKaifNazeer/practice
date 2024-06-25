@@ -19,7 +19,9 @@
 // import { CodeBlockOne } from "@/components/CodeBlocks/CodeBlockOne";
 // import Image from "next/image";
 
-import Rogue from "@/components/Rogue/Rogue";
+import { PulseBeams } from "@/components/Components/PulseBeam";
+
+// import Rogue from "@/components/Rogue/Rogue";
 
 // import Aceternity from "@/components/Aceternity/Aceternity";
 // import MoonBeam from "@/components/MoonBeam/MoonBeam";
@@ -27,7 +29,8 @@ import Rogue from "@/components/Rogue/Rogue";
 export default function Home() {
   return (
     <>
-      <Rogue />
+      <PulseBeams />
+      {/* <Rogue /> */}
       {/* <Aceternity /> */}
       {/* <MoonBeam /> */}
       {/* <CodeBlockOne /> */}
