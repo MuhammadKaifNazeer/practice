@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div
-      className={`fixed inset-x-0 top-0 z-[200] mx-auto mt-4 flex w-[95%] max-w-[85rem] items-center justify-between rounded-2xl px-4 py-2 antialiased md:w-full md:px-10 bg-white/[0.5] backdrop-blur-xl ${scrolled ? "shadow-[rgba(0,0,0,0.25)_0px_25px_50px_-12px]" : ""}`}
+      className={`fixed inset-x-0 top-0 z-[200] mx-auto mt-4 flex w-[95%] max-w-[85rem] items-center justify-between rounded-2xl px-4 py-2 antialiased md:w-full md:px-10 bg-transparent ${scrolled ? " backdrop-blur-xl shadow-[rgba(0,0,0,0.25)_0px_25px_50px_-12px]" : ""}`}
     >
       <div className="relative">
         <a className="relative z-10" href="/">
@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <a className="ml-4 block" href="#">
-                  <span className="__className_b3f6a0 relative z-20 block cursor-pointer rounded-xl bg-black px-8 py-3 text-center text-sm text-white shadow-2xl">
+                  <span className="__className_b3f6a0 relative z-20 block cursor-pointer rounded-xl bg-black px-8 py-3 text-center text-sm text-white font-semibold shadow-2xl">
                     Sign up
                   </span>
                 </a>

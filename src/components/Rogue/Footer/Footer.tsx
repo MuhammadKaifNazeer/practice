@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="space-y-8">
             <a href="/" className="relative z-10">
               <img
-                src="/_next/image?url=%2Fimages%2Flogo-v3-dark%2Flogo.png&amp;w=256&amp;q=75"
+                src="https://www.userogue.com/_next/image?url=%2Fimages%2Flogo-v3-dark%2Flogo.png&w=128&q=75"
                 width="120"
                 height="120"
                 alt="hero image"

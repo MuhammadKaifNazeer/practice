@@ -1,4 +1,7 @@
+import { Manrope } from "next/font/google";
 import React from "react";
+
+const manrope = Manrope({ subsets: ["latin"] });
 
 const Hero: React.FC = () => {
   return (
@@ -9,7 +12,9 @@ const Hero: React.FC = () => {
             <div className="relative z-40 mx-auto mt-10 h-full w-full max-w-7xl md:mt-20">
               <div className="mx-auto mt-8 max-w-7xl items-end gap-10 pt-20 md:gap-20">
                 <div className="mx-auto">
-                  <h1 className="text-center font-[500] text-3xl font-extrabold tracking-tight text-neutral-800 md:text-5xl lg:text-7xl lg:leading-snug __className_cbcdd2">
+                  <h1
+                    className={`${manrope.className} text-center font-extrabold text-3xl font-extrabold tracking-tight text-neutral-800 md:text-5xl lg:text-7xl lg:leading-snug __className_cbcdd2`}
+                  >
                     Respond to Government{" "}
                     <div
                       className="relative z-10 inline-block md:w-48"
@@ -18,8 +23,8 @@ const Hero: React.FC = () => {
                       RFQs
                     </div>
                     <br />
-                    <div className="inline-block font-[500]">
-                      <div className="relative inline-block bg-gray-100 px-2 py-1 mr-4 ">
+                    <div className="inline-block  font-extrabold">
+                      <div className="relative inline-block bg-gray-100 px-2 py-1 mr-3 ">
                         10x faster
                         <div
                           className="pointer-events-none h-2 w-2 rounded-full bg-black opacity-20 absolute -right-[2px] -top-[2px]"
