@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import Testimonial from "./Testimonials/Testimonials";
 import CTA from "./CTA/CTA";
 import FAQs from "./FAQs/FAQs";
+import Footer from "./Footer/Footer";
 
 const Rogue = () => {
   return (
@@ -15,8 +16,7 @@ const Rogue = () => {
           <Testimonial />
           <FAQs />
           <CTA />
-
-          <div className="h-screen w-screen bg-white"></div>
+          <Footer />
         </div>
       </div>
     </>
