@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} overflow-x-hidden`}>{children}</body>
+      <body className={`${inter.className} overflow-x-hidden`}>
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
