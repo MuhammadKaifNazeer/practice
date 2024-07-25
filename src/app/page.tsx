@@ -6,12 +6,16 @@
 // import Aceternity from "@/components/Aceternity/Aceternity";
 // import MoonBeam from "@/components/MoonBeam/MoonBeam";
 // import SidebarWeb from "@/components/SidebarWeb/SidebarWeb";
-import Chatbot from "@/components/Chatbot/Chatbot";
+// import Chatbot from "@/components/Chatbot/Chatbot";
+// import { LoginForm } from "@/components/LoginForm/LoginForm";
+import InvoiceGenerator from "@/components/InvoiceGenerator/InvoiceGenerator";
 
 export default function Home() {
   return (
     <>
-      <Chatbot />
+      <InvoiceGenerator />
+      {/* <LoginForm /> */}
+      {/* <Chatbot /> */}
       {/* <SidebarWeb /> */}
       {/* <PulseBeams /> */}
       {/* <Rogue /> */}
