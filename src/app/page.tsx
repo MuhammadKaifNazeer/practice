@@ -8,12 +8,15 @@
 // import SidebarWeb from "@/components/SidebarWeb/SidebarWeb";
 // import Chatbot from "@/components/Chatbot/Chatbot";
 // import { LoginForm } from "@/components/LoginForm/LoginForm";
-import InvoiceGenerator from "@/components/InvoiceGenerator/InvoiceGenerator";
+// import InvoiceGenerator from "@/components/InvoiceGenerator/InvoiceGenerator";
+// import HorizontalScroll from "@/components/HorizontalScroll/HorizontalScroll";
+import CopyAI from "@/components/CopyAI/CopyAI";
 
 export default function Home() {
   return (
     <>
-      <InvoiceGenerator />
+      <CopyAI />
+      {/* <InvoiceGenerator /> */}
       {/* <LoginForm /> */}
       {/* <Chatbot /> */}
       {/* <SidebarWeb /> */}
