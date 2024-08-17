@@ -3,7 +3,7 @@
 // import Image from "next/image";
 // import { PulseBeams } from "@/components/Components/PulseBeam";
 // import Rogue from "@/components/Rogue/Rogue";
-import Aceternity from "@/components/Aceternity/Aceternity";
+// import Aceternity from "@/components/Aceternity/Aceternity";
 // import MoonBeam from "@/components/MoonBeam/MoonBeam";
 // import SidebarWeb from "@/components/SidebarWeb/SidebarWeb";
 // import Chatbot from "@/components/Chatbot/Chatbot";
@@ -11,10 +11,12 @@ import Aceternity from "@/components/Aceternity/Aceternity";
 // import InvoiceGenerator from "@/components/InvoiceGenerator/InvoiceGenerator";
 // import HorizontalScroll from "@/components/HorizontalScroll/HorizontalScroll";
 // import CopyAI from "@/components/CopyAI/CopyAI";
+import Voxlet from "@/components/Voxlet/Voxlet";
 
 export default function Home() {
   return (
     <>
+      <Voxlet />
       {/* <CopyAI /> */}
       {/* <InvoiceGenerator /> */}
       {/* <LoginForm /> */}
@@ -22,7 +24,7 @@ export default function Home() {
       {/* <SidebarWeb /> */}
       {/* <PulseBeams /> */}
       {/* <Rogue /> */}
-      <Aceternity />
+      {/* <Aceternity /> */}
       {/* <MoonBeam /> */}
       {/* <CodeBlockOne /> */}
       {/* <BentoGrid /> */}

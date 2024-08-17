@@ -1,0 +1,9 @@
+
+.radialGradientText {
+    background: radial-gradient(71.87% 85.19% at 31.73% 9.02%, #09f, #2298e7 48.97%, #0561e2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    leading-trim: both;
+    text-edge: cap;
+}
