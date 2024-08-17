@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../aceternity.module.css";
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Hero: React.FC = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-8 mt-20 relative text-center text-zinc-700 max-w-6xl mx-auto !leading-snug __className_399708">
           Crafting High-Performance Websites <br className="hidden md:block" />
           with{" "}
-          <span className="relative bg-clip-text text-transparent bg-gradient-to-t from-emerald-600 to-emerald-600/[0.8] z-10">
+          <span className={`${styles.radialGradientText}`}>
             Stunning Design & Speed
           </span>{" "}
           <span>
