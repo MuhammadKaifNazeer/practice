@@ -11,12 +11,14 @@
 // import InvoiceGenerator from "@/components/InvoiceGenerator/InvoiceGenerator";
 // import HorizontalScroll from "@/components/HorizontalScroll/HorizontalScroll";
 // import CopyAI from "@/components/CopyAI/CopyAI";
-import Voxlet from "@/components/Voxlet/Voxlet";
+// import Voxlet from "@/components/Voxlet/Voxlet";
+import AceternityPro from "@/components/AceternityPro/AceternityPro";
 
 export default function Home() {
   return (
     <>
-      <Voxlet />
+      <AceternityPro />
+      {/* <Voxlet /> */}
       {/* <CopyAI /> */}
       {/* <InvoiceGenerator /> */}
       {/* <LoginForm /> */}
