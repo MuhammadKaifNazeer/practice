@@ -13,12 +13,14 @@
 // import CopyAI from "@/components/CopyAI/CopyAI";
 // import Voxlet from "@/components/Voxlet/Voxlet";
 // import AceternityPro from "@/components/AceternityPro/AceternityPro";
-import { SmoothSidebar } from "@/components/SmoothSidebar/SmoothSidebar";
+// import { SmoothSidebar } from "@/components/SmoothSidebar/SmoothSidebar";
+import DashboardApp from "@/components/DashboardApp/DashboardApp";
 
 export default function Home() {
   return (
     <>
-      <SmoothSidebar />
+      <DashboardApp />
+      {/* <SmoothSidebar /> */}
       {/* <AceternityPro /> */}
       {/* <Voxlet /> */}
       {/* <CopyAI /> */}
