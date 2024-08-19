@@ -12,12 +12,14 @@
 // import HorizontalScroll from "@/components/HorizontalScroll/HorizontalScroll";
 // import CopyAI from "@/components/CopyAI/CopyAI";
 // import Voxlet from "@/components/Voxlet/Voxlet";
-import AceternityPro from "@/components/AceternityPro/AceternityPro";
+// import AceternityPro from "@/components/AceternityPro/AceternityPro";
+import { SmoothSidebar } from "@/components/SmoothSidebar/SmoothSidebar";
 
 export default function Home() {
   return (
     <>
-      <AceternityPro />
+      <SmoothSidebar />
+      {/* <AceternityPro /> */}
       {/* <Voxlet /> */}
       {/* <CopyAI /> */}
       {/* <InvoiceGenerator /> */}
