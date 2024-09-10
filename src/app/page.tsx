@@ -14,7 +14,7 @@
 // import Voxlet from "@/components/Voxlet/Voxlet";
 // import AceternityPro from "@/components/AceternityPro/AceternityPro";
 // import { SmoothSidebar } from "@/components/SmoothSidebar/SmoothSidebar";
-import DashboardApp from "@/components/DashboardApp/DashboardApp";
+import { DashboardApp } from "@/components/DashboardApp/DashboardApp";
 
 export default function Home() {
   return (

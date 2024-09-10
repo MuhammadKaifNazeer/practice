@@ -22,16 +22,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Input } from "@/components/ui/input";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import {
   Table,
   TableBody,
   TableCell,
@@ -39,10 +29,11 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { MainChart } from "../Charts/MainChart";
 
-export function Dashboard({ open }: { open?: boolean }) {
+export function Dashboard() {
   return (
-    <div className="flex min-h-screen w-full flex-col border-l">
+    <div className="flex min-h-screen w-full flex-col border-l overflow-y-scroll overlfow-x-hidden">
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
         <div className="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
           <Card x-chunk="dashboard-01-chunk-0">
@@ -99,13 +90,12 @@ export function Dashboard({ open }: { open?: boolean }) {
           </Card>
         </div>
 
+        <MainChart />
+
         <div
-          className={`flex flex-col md:flex-row gap-4 md:gap-8 transition-all duration-300`}
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 transition-all duration-300`}
         >
-          <Card
-            className={`${open ? "w-[50%]" : "w-[70%]"} transition duration-300`}
-            x-chunk="dashboard-01-chunk-4"
-          >
+          <Card className={``} x-chunk="dashboard-01-chunk-4">
             <CardHeader className="flex flex-row items-center">
               <div className="grid gap-2">
                 <CardTitle>Transactions</CardTitle>
@@ -243,10 +233,7 @@ export function Dashboard({ open }: { open?: boolean }) {
             </CardContent>
           </Card>
 
-          <Card
-            x-chunk="dashboard-01-chunk-5"
-            className={`${open ? "w-[50%]" : "w-[30%]"} transition duration-300 overflow-hidden`}
-          >
+          <Card x-chunk="dashboard-01-chunk-5" className={``}>
             <CardHeader>
               <CardTitle>Recent Sales</CardTitle>
             </CardHeader>
